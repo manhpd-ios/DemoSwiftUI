@@ -7,10 +7,15 @@
 
 import Foundation
 
-class Contents {
+class Comment {
 
     var id: String?
 
     var contents: String?
+
+    init(id: String, contents: String) {
+        self.id = id
+        self.contents = contents
+    }
 
 }
